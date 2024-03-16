@@ -11,14 +11,14 @@ const myObj = {
     },
 };
 
-console.log(typeof myObj);
+// console.log(typeof myObj);
 
-// to convert into OBJECT to JSON
+// to convert OBJECT to JSON
 const sendJSON = JSON.stringify(myObj);
 console.log(sendJSON);
 console.log(typeof sendJSON);
 
-// to convert into JSON to OBJECT
+// to convert JSON to OBJECT
 
 const receiveJSON = JSON.parse(sendJSON);
 console.log(typeof receiveJSON);
